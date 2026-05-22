@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Application state and logs
+broadcast_state.json
+*.log
+
+# Personal WhatsApp Web stealth session profile
+whatsapp_stealth_profile/
+
+# Contacts and details (Do not push private contact lists to Git!)
+contacts.csv
+
+# Agent/Local environment configs
+.antigravitycli/
+.env
+.env.*
